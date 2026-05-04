@@ -1,0 +1,9 @@
+node_modules
+*.mp4
+*.m4a
+public/*.jpg
+public/*.png
+public/*.mp4
+public/premier pro.mp4
+public/Davinci resolve.mp4
+public/cupcut.mp4
