@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Merci</title>
+    <style>
+      body {
+        margin: 0;
+        font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+        background: #090909;
+        color: #f8f8f8;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 100vh;
+        text-align: center;
+      }
+      .card {
+        max-width: 520px;
+        padding: 40px;
+        border-radius: 28px;
+        background: rgba(15, 15, 15, 0.95);
+        border: 1px solid rgba(255, 255, 255, 0.08);
+        box-shadow: 0 24px 60px rgba(0, 0, 0, 0.45);
+      }
+      .button {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 32px;
+        padding: 14px 28px;
+        border-radius: 999px;
+        background: #ec4899;
+        color: #ffffff;
+        text-decoration: none;
+        font-weight: 700;
+        transition: transform 0.2s ease, background 0.2s ease;
+      }
+      .button:hover {
+        transform: translateY(-1px);
+        background: #db2777;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="card">
+      <h1>Merci !</h1>
+      <p>Votre message a bien été envoyé.</p>
+      <p>Je vous recontacte rapidement.</p>
+      <a class="button" href="/">Retour au site</a>
+    </div>
+  </body>
+</html>
